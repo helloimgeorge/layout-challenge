@@ -60,6 +60,7 @@ header {
 }
 
 .tag-line {
+	display: none;
 	font-size: 120%; 
 	color: #EEE;	
 	margin: 0;
@@ -120,6 +121,7 @@ a.navigation-link:focus, a.navigation-link:hover {
 }
 
 @media (min-width: 992px) {
+
 	body { 
 		background-image: url('../img/background.jpg');
 		background-size: cover; 
@@ -136,7 +138,7 @@ a.navigation-link:focus, a.navigation-link:hover {
 	}
 
 	.tag-line {
-		display: inline;
+		display: block;
 	}
 
 	nav {
@@ -145,6 +147,3 @@ a.navigation-link:focus, a.navigation-link:hover {
 		right: 10px;	
 	}
 } 
-
-
-
